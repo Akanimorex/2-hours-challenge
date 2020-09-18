@@ -1,0 +1,154 @@
+html,body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background: #ff2500 !important;
+    
+}
+.aside {
+    width: 200px;
+    height: 100vh;
+    top: 55px;
+    left: 0;
+    background-color:white;
+    color: #a4a6b3;
+    position: fixed;
+    /* z-index: 10000; */
+  }
+  
+  .logo {
+    padding-bottom: 35px;
+  }
+  
+  .nav-link:hover {
+    color:#ff2500 !important ;
+  }
+
+  .nav-list {
+    margin: 17px 0;
+  }
+  
+  .nav-list span {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  
+  .nav-list svg {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    padding: 8px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+
+  }
+
+  .refresh-btn {
+      background-color:#ff2500;
+      border-radius: 50%;
+      padding:10px;
+      color: white;
+  }
+  .refresh-btn:hover {
+      color: white;
+      text-decoration:none;
+  }
+
+
+
+  .active::after {
+      position: absolute;
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 5px;
+      background-color: #ff2500;
+      width: 64px;
+  }
+
+  .top-bar{
+    position: relative;
+    margin-top: 49px;
+    background:#0d0d0d;
+    color: white;
+  }
+  .nav-list-two  > .nav-link {
+      color: white;
+  }
+  .nav-list-two  > .nav-link:hover{
+      color: #ff2500;
+  }
+  /* .top-bar-list > .nav-list-two {
+    display: inline-block;
+  } */
+
+  .pagination > .page-item > .page-link {
+      background: white;
+      border-radius: 50%;
+      color: black !important;
+      box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+  }
+  .pagination > .page-item > .page-link:hover{
+      background:#ff2500;
+      color: white !important;
+
+  }
+
+  .down-side {
+      margin-top: 50px !important;
+  }
+
+  input[type="search"]{
+      border-radius: 40px;
+      background: #0d0d0d;
+  }
+  .btn-submit{
+    border-radius: 40px !important;
+    background: #ff2500 !important;
+    color: white !important;
+  }
+  
+  
+  
+  
+  .nav-link:hover,
+  .nav-link:active,
+  .sign-out button:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+ .list-head{
+     color:grey;
+     font-weight: bold;
+     font-size:14px !important;
+     padding-left: 4px;
+ }
+  
+ 
+
+  .right-side {
+    margin-left: 200px;
+    /* padding: 10px; */
+    font-family: ;
+    background:  #e6e6e6;
+    height: 92vh;
+ }
+  
+  @media (max-width: 768px) {
+    .aside {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @media (min-width: 1100px) {
+    .aside {
+      width: 200px;
+    }
+  }
+  
